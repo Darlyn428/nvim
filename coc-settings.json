@@ -1,0 +1,54 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "markdown",
+    "javascript",
+    "typescript",
+    "python",
+    "ts",
+    "tsx",
+    "jsx"
+  ],
+  "emmet.includeLanguages": {
+    "ejs-html": "html",
+    "ejs": ["html", "javascript"],
+    "javascript": "javascriptreact"
+  },
+  "explorer.icon.enableNerdfont": true,
+  "explorer.previewAction.onHover": true,
+  "explorer.keyMappings.global": {
+    "<cr>": ["expandable?", "expand", "open"],
+    "v": "open:vsplit"
+  },
+  "snippets.extends": {
+    "cpp": ["c"],
+    "javascriptreact": ["javascript"],
+    "javascript": ["javascript"],
+    "ejs": ["javascript"],
+    "python": ["python"]
+  },
+  "languageserver": {
+    "bash": {
+      "command": "bash-language-server",
+      "args": ["start"],
+      "filetypes": ["sh"],
+      "ignoredRootPaths": ["~"]
+    }
+  },
+  "html.filetypes": ["html", "handlebars", "htmldjango", "blade", "ejs", "pug"],
+  "html.autoClosingTags": true,
+  "html.format.wrapLineLength": 60,
+  "html.enable": true,
+  "python.jediEnabled": false,
+  "codeLens.enable": true,
+  "java.referencesCodeLens.enabled": true,
+  "java.jdt.ls.vmargs": "-javaagent:/usr/local/share/lombok.jar",
+  "eslint.filetypes": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "vue"
+  ],
+  "vetur.useWorkspaceDependencies": true
+}
