@@ -10,7 +10,7 @@ set expandtab
 set laststatus=2
 set noshowmode
 set hidden
-set mouse=a
+set mouse=v
 set splitbelow
 set splitright
 "set cursorline
@@ -20,5 +20,4 @@ set updatetime=900
 set shortmess+=c
 set clipboard=unnamedplus
 set t_Co=256
-"set t_ut=
 set bg=dark

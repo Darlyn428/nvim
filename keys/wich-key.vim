@@ -33,12 +33,12 @@ let g:which_key_map['E'] = [ ':CocCommand explorer --preset floating'
       \, 'explorer floating' ]
 let g:which_key_map['h'] = [ '<C-W>s'                     , 'split below']
 let g:which_key_map['v'] = [ '<C-W>v'                     , 'split right']
-let g:which_key_map['f'] = [ ':FZF'                       , 'FZF' ]
+let g:which_key_map['F'] = [ ':FZF'                       , 'FZF' ]
 let g:which_key_map['q'] = [ ':q'                         , 'quit' ]
 let g:which_key_map['d'] = [ ':bdelete'                   , 'delete' ]
 let g:which_key_map['p'] = [ ':PrettierAsync'             , 'prettier' ]
 let g:which_key_map['L'] = [ ':Lines'                     , 'lines' ]
-let g:which_key_map['F'] = [ ':Files'                     , 'files' ]
+let g:which_key_map['f'] = [ ':Files'                     , 'files' ]
 
 " s is for search
 let g:which_key_map.o = {
@@ -68,6 +68,13 @@ let g:which_key_map.o = {
       \ 'y' : [':Filetypes'    , 'file types'],
       \ 'o' : [':syntax on'    , 'syntax on' ]
       \ }
+
+let g:which_key_map.t = {
+  \ 'name'  :   'terminal',
+  \ 'z'     : [':terminal zsh'      ,   'zsh'],
+  \ 'b'     : [':terminal bash'     ,   'bash'],
+  \ 'p'     : [':terminal python'   ,   'python']
+  \ }
 
 
 " Register which key map

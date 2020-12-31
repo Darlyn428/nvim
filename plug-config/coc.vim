@@ -1,6 +1,8 @@
 let g:coc_global_extensions = [
 	\ 'coc-json',
+  \ 'coc-deno',
 	\ 'coc-css',
+  \ 'coc-rome',
 	\ 'coc-tsserver',
 	\ 'coc-lists',
 	\ 'coc-explorer',
@@ -16,7 +18,7 @@ let g:coc_global_extensions = [
   \ 'coc-java',
   \ 'coc-tslint',
   \ 'coc-vetur',
-  \ 'coc-angular',
+  "\ 'coc-angular',
   \ 'coc-eslint',
   \ 'coc-git',
   \ 'coc-go',

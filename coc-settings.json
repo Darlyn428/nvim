@@ -15,7 +15,7 @@
     "javascript": "javascriptreact"
   },
   "explorer.icon.enableNerdfont": true,
-  "explorer.previewAction.onHover": true,
+  "explorer.previewAction.onHover":"labeling",
   "explorer.keyMappings.global": {
     "<cr>": ["expandable?", "expand", "open"],
     "v": "open:vsplit"
